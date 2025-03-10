@@ -1,0 +1,36 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{90F9C652-C064-44AE-AB6A-24167BFDE6E0}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="ProyectoA_AccesoMySQLMariaDB.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="ProyectoA_AccesoMySQLMariaDB">
+        <MSBuild Projects="ProyectoA_AccesoMySQLMariaDB.dproj"/>
+    </Target>
+    <Target Name="ProyectoA_AccesoMySQLMariaDB:Clean">
+        <MSBuild Projects="ProyectoA_AccesoMySQLMariaDB.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ProyectoA_AccesoMySQLMariaDB:Make">
+        <MSBuild Projects="ProyectoA_AccesoMySQLMariaDB.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="ProyectoA_AccesoMySQLMariaDB"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="ProyectoA_AccesoMySQLMariaDB:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="ProyectoA_AccesoMySQLMariaDB:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

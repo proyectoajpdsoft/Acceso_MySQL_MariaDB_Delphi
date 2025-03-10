@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2025/03/06 20:58:24.000.934,=D:\Mis documentos\ProyectoA\DelphiXE\Unit1.pas</Transaction>
+    <Transaction>2025/03/08 10:05:09.000.514,=D:\Mis documentos\ProyectoA\DelphiXE\Unit1.pas</Transaction>
+    <Transaction>2025/03/08 10:09:13.000.895,D:\Mis documentos\ProyectoA\DelphiXE\Unit1.pas=D:\Mis documentos\ProyectoA\DelphiXE\ProyectoA_Acceso_MySQL_MariaDB_Delphi_12\UnidadAccesoMySQLMariaDB.pas</Transaction>
+    <Transaction>2025/03/08 10:09:13.000.895,D:\Mis documentos\ProyectoA\DelphiXE\Unit1.dfm=D:\Mis documentos\ProyectoA\DelphiXE\ProyectoA_Acceso_MySQL_MariaDB_Delphi_12\UnidadAccesoMySQLMariaDB.dfm</Transaction>
+    <Transaction>2025/03/08 10:09:27.000.033,D:\Mis documentos\ProyectoA\DelphiXE\Project1.dproj=D:\Mis documentos\ProyectoA\DelphiXE\ProyectoA_Acceso_MySQL_MariaDB_Delphi_12\ProyectoA_AccesoMySQLMariaDB.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
